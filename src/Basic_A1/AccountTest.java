@@ -18,6 +18,12 @@ class AccountTest {
 
     @Test
     void deposit() {
+        Account my = new Account("Harry", 3245, 10.0f);
+        assertEquals(true, my.deposit(5));
+        assertEquals(false, my.deposit(-5));
+        assertEquals(true, my.deposit(0));
+        assertEquals(my.getBalance() == 15.0f, my.deposit(5));
+        assertEquals(my.getBalance()== 10.0f, my.deposit(-5) );
     }
 
     @Test
