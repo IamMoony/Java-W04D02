@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AccountTest {
+class BadMoneyTest {
 
     @BeforeEach
     void setUp() {
@@ -17,26 +17,6 @@ class AccountTest {
     }
 
     @Test
-    void deposit() {
-    }
-
-    @Test
-    void withdraw() {
-    }
-
-    @Test
-    void addInterest() {
-    }
-
-    @Test
-    void getBalance() {
-    }
-
-    @Test
-    void getAccountNumber() {
-    }
-
-    @Test
-    void toString1() {
+    void main() {
     }
 }
