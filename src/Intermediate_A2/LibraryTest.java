@@ -11,12 +11,12 @@ class LibraryTest {
 
     @BeforeEach
     void init() {
-        log.info("before each method of Library");
+        log.info("Before each method of Library");
     }
 
     @AfterEach
     void tearDown() {
-        log.info("after each method of Library");
+        log.info("After each method of Library");
     }
 
     @Test
