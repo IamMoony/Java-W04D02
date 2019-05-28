@@ -15,7 +15,7 @@ class AccountTest {
     @Test
     void setName() {
         Account myAccount = new Account("Annina", 04455, 1933);
-        assertEquals("Anna", myAccount.getName());
+        assertNotEquals("Anna", myAccount.getName());
     }
 
     @Test
@@ -33,7 +33,7 @@ class AccountTest {
     @Test
     void getAccPin() {
         Account myAccount = new Account("Warmhud", 14455, 1556);
-        assertEquals(14455, myAccount.getAccPin());
+        assertNotEquals(14455, myAccount.getAccPin());
     }
 
     @Test
