@@ -66,6 +66,7 @@ public class Account
     /* Determine if withdrawal parameters are valid */
     private boolean isValidWithdrawl(float amount, float fee)
     {
+
         return amount >= 0 && fee >= 0 && amount <= balance;
     }
     /**
